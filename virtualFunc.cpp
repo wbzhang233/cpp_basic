@@ -22,7 +22,7 @@ public:
 
 	static void shapePrint()
 	{
-		std::printf("ShapeName is %s in stacic.","shape");
+		std::printf("ShapeName is %s in stacic.",ShapeName.c_str() );
 	}
 
 	void setWidth(int w)
@@ -136,6 +136,7 @@ int main(void)
 	// 2 动态多态打印
 	cout<<"------ Dynamic constructor func ------"<<endl;
 	Shape *shape1 = new Rectangle();
+//	Shape *shape2 = rectangle;
 	cout<<"------ Dynamic bind print ------"<<endl;
 	shape1->print();
 
@@ -149,3 +150,10 @@ int main(void)
 
 	return 0;
 }
+
+/* 总结：
+ * 1) 虚函数原理：虚表指针与虚函数表
+ * 2) 构造函数：先基类，再派生类的成员，再调用派生类构造函数
+ * 3) 析构函数：先调用子类析构函数，再调用父类析构函数
+ * 4) 纯虚函数-->接口类，抽象类
+ * */
