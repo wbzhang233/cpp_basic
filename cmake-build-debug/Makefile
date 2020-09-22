@@ -201,6 +201,19 @@ strTest/fast:
 .PHONY : strTest/fast
 
 #=============================================================================
+# Target rules for targets named sortCmpFunc2
+
+# Build rule for target.
+sortCmpFunc2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 sortCmpFunc2
+.PHONY : sortCmpFunc2
+
+# fast build rule for target.
+sortCmpFunc2/fast:
+	$(MAKE) -f CMakeFiles\sortCmpFunc2.dir\build.make CMakeFiles/sortCmpFunc2.dir/build
+.PHONY : sortCmpFunc2/fast
+
+#=============================================================================
 # Target rules for targets named classInheritance
 
 # Build rule for target.
@@ -303,6 +316,19 @@ numsUsage: cmake_check_build_system
 numsUsage/fast:
 	$(MAKE) -f CMakeFiles\numsUsage.dir\build.make CMakeFiles/numsUsage.dir/build
 .PHONY : numsUsage/fast
+
+#=============================================================================
+# Target rules for targets named sortCmpFunc
+
+# Build rule for target.
+sortCmpFunc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 sortCmpFunc
+.PHONY : sortCmpFunc
+
+# fast build rule for target.
+sortCmpFunc/fast:
+	$(MAKE) -f CMakeFiles\sortCmpFunc.dir\build.make CMakeFiles/sortCmpFunc.dir/build
+.PHONY : sortCmpFunc/fast
 
 #=============================================================================
 # Target rules for targets named structAlign
@@ -657,6 +683,60 @@ reloadOperator.cpp.s:
 	$(MAKE) -f CMakeFiles\reloadOperator.dir\build.make CMakeFiles/reloadOperator.dir/reloadOperator.cpp.s
 .PHONY : reloadOperator.cpp.s
 
+sortCmpFunc.obj: sortCmpFunc.cpp.obj
+
+.PHONY : sortCmpFunc.obj
+
+# target to build an object file
+sortCmpFunc.cpp.obj:
+	$(MAKE) -f CMakeFiles\sortCmpFunc.dir\build.make CMakeFiles/sortCmpFunc.dir/sortCmpFunc.cpp.obj
+.PHONY : sortCmpFunc.cpp.obj
+
+sortCmpFunc.i: sortCmpFunc.cpp.i
+
+.PHONY : sortCmpFunc.i
+
+# target to preprocess a source file
+sortCmpFunc.cpp.i:
+	$(MAKE) -f CMakeFiles\sortCmpFunc.dir\build.make CMakeFiles/sortCmpFunc.dir/sortCmpFunc.cpp.i
+.PHONY : sortCmpFunc.cpp.i
+
+sortCmpFunc.s: sortCmpFunc.cpp.s
+
+.PHONY : sortCmpFunc.s
+
+# target to generate assembly for a file
+sortCmpFunc.cpp.s:
+	$(MAKE) -f CMakeFiles\sortCmpFunc.dir\build.make CMakeFiles/sortCmpFunc.dir/sortCmpFunc.cpp.s
+.PHONY : sortCmpFunc.cpp.s
+
+sortCmpFunc2.obj: sortCmpFunc2.cpp.obj
+
+.PHONY : sortCmpFunc2.obj
+
+# target to build an object file
+sortCmpFunc2.cpp.obj:
+	$(MAKE) -f CMakeFiles\sortCmpFunc2.dir\build.make CMakeFiles/sortCmpFunc2.dir/sortCmpFunc2.cpp.obj
+.PHONY : sortCmpFunc2.cpp.obj
+
+sortCmpFunc2.i: sortCmpFunc2.cpp.i
+
+.PHONY : sortCmpFunc2.i
+
+# target to preprocess a source file
+sortCmpFunc2.cpp.i:
+	$(MAKE) -f CMakeFiles\sortCmpFunc2.dir\build.make CMakeFiles/sortCmpFunc2.dir/sortCmpFunc2.cpp.i
+.PHONY : sortCmpFunc2.cpp.i
+
+sortCmpFunc2.s: sortCmpFunc2.cpp.s
+
+.PHONY : sortCmpFunc2.s
+
+# target to generate assembly for a file
+sortCmpFunc2.cpp.s:
+	$(MAKE) -f CMakeFiles\sortCmpFunc2.dir\build.make CMakeFiles/sortCmpFunc2.dir/sortCmpFunc2.cpp.s
+.PHONY : sortCmpFunc2.cpp.s
+
 strTest.obj: strTest.cpp.obj
 
 .PHONY : strTest.obj
@@ -805,6 +885,7 @@ help:
 	@echo ... reloadOperator
 	@echo ... inlienFunc
 	@echo ... strTest
+	@echo ... sortCmpFunc2
 	@echo ... classInheritance
 	@echo ... gcd
 	@echo ... friendFunc
@@ -813,6 +894,7 @@ help:
 	@echo ... classTest
 	@echo ... cctype
 	@echo ... numsUsage
+	@echo ... sortCmpFunc
 	@echo ... structAlign
 	@echo ... virtualFunc
 	@echo ... edit_cache
@@ -853,6 +935,12 @@ help:
 	@echo ... reloadOperator.obj
 	@echo ... reloadOperator.i
 	@echo ... reloadOperator.s
+	@echo ... sortCmpFunc.obj
+	@echo ... sortCmpFunc.i
+	@echo ... sortCmpFunc.s
+	@echo ... sortCmpFunc2.obj
+	@echo ... sortCmpFunc2.i
+	@echo ... sortCmpFunc2.s
 	@echo ... strTest.obj
 	@echo ... strTest.i
 	@echo ... strTest.s

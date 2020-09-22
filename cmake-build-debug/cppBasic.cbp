@@ -311,6 +311,48 @@
 					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="sortCmpFunc2">
+				<Option output="D:/Code/5-cppBasic/cmake-build-debug/sortCmpFunc2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/5-cppBasic/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 sortCmpFunc2"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sortCmpFunc2/fast">
+				<Option output="D:/Code/5-cppBasic/cmake-build-debug/sortCmpFunc2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/5-cppBasic/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 sortCmpFunc2/fast"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="classInheritance">
 				<Option output="D:/Code/5-cppBasic/cmake-build-debug/classInheritance.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Code/5-cppBasic/cmake-build-debug"/>
@@ -647,6 +689,48 @@
 					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="sortCmpFunc">
+				<Option output="D:/Code/5-cppBasic/cmake-build-debug/sortCmpFunc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/5-cppBasic/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 sortCmpFunc"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sortCmpFunc/fast">
+				<Option output="D:/Code/5-cppBasic/cmake-build-debug/sortCmpFunc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/5-cppBasic/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 sortCmpFunc/fast"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/5-cppBasic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="structAlign">
 				<Option output="D:/Code/5-cppBasic/cmake-build-debug/structAlign.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Code/5-cppBasic/cmake-build-debug"/>
@@ -795,6 +879,12 @@
 		<Unit filename="D:/Code/5-cppBasic/reloadOperator.h">
 			<Option target="lambda"/>
 			<Option target="reloadOperator"/>
+		</Unit>
+		<Unit filename="D:/Code/5-cppBasic/sortCmpFunc.cpp">
+			<Option target="sortCmpFunc"/>
+		</Unit>
+		<Unit filename="D:/Code/5-cppBasic/sortCmpFunc2.cpp">
+			<Option target="sortCmpFunc2"/>
 		</Unit>
 		<Unit filename="D:/Code/5-cppBasic/strTest.cpp">
 			<Option target="strTest"/>

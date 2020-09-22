@@ -38,8 +38,11 @@ add_executable(cctype cctypeTest.cpp)
 # 数组和指针
 add_executable(numsUsage numsUsage.cpp)
 
-############ 以下为高频面试题测试 ############
+# 自定义比较函数
+add_executable(sortCmpFunc sortCmpFunc.cpp)
+add_executable(sortCmpFunc2 sortCmpFunc2.cpp)
 
+############ 以下为高频面试题测试 ############
 # const char* 与char const*的区别
 add_executable(charConst charConstP.cpp)
 
@@ -48,4 +51,6 @@ add_executable(structAlign structAlign.cpp)
 
 # 虚函数动态绑定问题
 add_executable(virtualFunc virtualFunc.cpp)
+
+# sizeof与strlen
 

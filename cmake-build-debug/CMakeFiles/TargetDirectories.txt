@@ -5,6 +5,7 @@ D:/Code/5-cppBasic/cmake-build-debug/CMakeFiles/charConst.dir
 D:/Code/5-cppBasic/cmake-build-debug/CMakeFiles/reloadOperator.dir
 D:/Code/5-cppBasic/cmake-build-debug/CMakeFiles/inlienFunc.dir
 D:/Code/5-cppBasic/cmake-build-debug/CMakeFiles/strTest.dir
+D:/Code/5-cppBasic/cmake-build-debug/CMakeFiles/sortCmpFunc2.dir
 D:/Code/5-cppBasic/cmake-build-debug/CMakeFiles/classInheritance.dir
 D:/Code/5-cppBasic/cmake-build-debug/CMakeFiles/gcd.dir
 D:/Code/5-cppBasic/cmake-build-debug/CMakeFiles/friendFunc.dir
@@ -13,6 +14,7 @@ D:/Code/5-cppBasic/cmake-build-debug/CMakeFiles/thread.dir
 D:/Code/5-cppBasic/cmake-build-debug/CMakeFiles/classTest.dir
 D:/Code/5-cppBasic/cmake-build-debug/CMakeFiles/cctype.dir
 D:/Code/5-cppBasic/cmake-build-debug/CMakeFiles/numsUsage.dir
+D:/Code/5-cppBasic/cmake-build-debug/CMakeFiles/sortCmpFunc.dir
 D:/Code/5-cppBasic/cmake-build-debug/CMakeFiles/structAlign.dir
 D:/Code/5-cppBasic/cmake-build-debug/CMakeFiles/virtualFunc.dir
 D:/Code/5-cppBasic/cmake-build-debug/CMakeFiles/edit_cache.dir

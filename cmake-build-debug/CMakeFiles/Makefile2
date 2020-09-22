@@ -107,7 +107,7 @@ clean: CMakeFiles/cppBasic.dir/clean
 CMakeFiles/strTest2.dir/all:
 	$(MAKE) -f CMakeFiles\strTest2.dir\build.make CMakeFiles/strTest2.dir/depend
 	$(MAKE) -f CMakeFiles\strTest2.dir\build.make CMakeFiles/strTest2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\5-cppBasic\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target strTest2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\5-cppBasic\cmake-build-debug\CMakeFiles --progress-num=32,33 "Built target strTest2"
 .PHONY : CMakeFiles/strTest2.dir/all
 
 # Include target in all.
@@ -292,7 +292,7 @@ clean: CMakeFiles/inlienFunc.dir/clean
 CMakeFiles/strTest.dir/all:
 	$(MAKE) -f CMakeFiles\strTest.dir\build.make CMakeFiles/strTest.dir/depend
 	$(MAKE) -f CMakeFiles\strTest.dir\build.make CMakeFiles/strTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\5-cppBasic\cmake-build-debug\CMakeFiles --progress-num=26,27 "Built target strTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\5-cppBasic\cmake-build-debug\CMakeFiles --progress-num=30,31 "Built target strTest"
 .PHONY : CMakeFiles/strTest.dir/all
 
 # Include target in all.
@@ -319,6 +319,43 @@ CMakeFiles/strTest.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/strTest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sortCmpFunc2.dir
+
+# All Build rule for target.
+CMakeFiles/sortCmpFunc2.dir/all:
+	$(MAKE) -f CMakeFiles\sortCmpFunc2.dir\build.make CMakeFiles/sortCmpFunc2.dir/depend
+	$(MAKE) -f CMakeFiles\sortCmpFunc2.dir\build.make CMakeFiles/sortCmpFunc2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\5-cppBasic\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target sortCmpFunc2"
+.PHONY : CMakeFiles/sortCmpFunc2.dir/all
+
+# Include target in all.
+all: CMakeFiles/sortCmpFunc2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sortCmpFunc2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\5-cppBasic\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/sortCmpFunc2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\5-cppBasic\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/sortCmpFunc2.dir/rule
+
+# Convenience name for target.
+sortCmpFunc2: CMakeFiles/sortCmpFunc2.dir/rule
+
+.PHONY : sortCmpFunc2
+
+# clean rule for target.
+CMakeFiles/sortCmpFunc2.dir/clean:
+	$(MAKE) -f CMakeFiles\sortCmpFunc2.dir\build.make CMakeFiles/sortCmpFunc2.dir/clean
+.PHONY : CMakeFiles/sortCmpFunc2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/sortCmpFunc2.dir/clean
 
 .PHONY : clean
 
@@ -477,7 +514,7 @@ clean: CMakeFiles/exception.dir/clean
 CMakeFiles/thread.dir/all:
 	$(MAKE) -f CMakeFiles\thread.dir\build.make CMakeFiles/thread.dir/depend
 	$(MAKE) -f CMakeFiles\thread.dir\build.make CMakeFiles/thread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\5-cppBasic\cmake-build-debug\CMakeFiles --progress-num=32,33 "Built target thread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\5-cppBasic\cmake-build-debug\CMakeFiles --progress-num=36,37 "Built target thread"
 .PHONY : CMakeFiles/thread.dir/all
 
 # Include target in all.
@@ -619,13 +656,50 @@ clean: CMakeFiles/numsUsage.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/sortCmpFunc.dir
+
+# All Build rule for target.
+CMakeFiles/sortCmpFunc.dir/all:
+	$(MAKE) -f CMakeFiles\sortCmpFunc.dir\build.make CMakeFiles/sortCmpFunc.dir/depend
+	$(MAKE) -f CMakeFiles\sortCmpFunc.dir\build.make CMakeFiles/sortCmpFunc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\5-cppBasic\cmake-build-debug\CMakeFiles --progress-num=26,27 "Built target sortCmpFunc"
+.PHONY : CMakeFiles/sortCmpFunc.dir/all
+
+# Include target in all.
+all: CMakeFiles/sortCmpFunc.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sortCmpFunc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\5-cppBasic\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/sortCmpFunc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\5-cppBasic\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/sortCmpFunc.dir/rule
+
+# Convenience name for target.
+sortCmpFunc: CMakeFiles/sortCmpFunc.dir/rule
+
+.PHONY : sortCmpFunc
+
+# clean rule for target.
+CMakeFiles/sortCmpFunc.dir/clean:
+	$(MAKE) -f CMakeFiles\sortCmpFunc.dir\build.make CMakeFiles/sortCmpFunc.dir/clean
+.PHONY : CMakeFiles/sortCmpFunc.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/sortCmpFunc.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/structAlign.dir
 
 # All Build rule for target.
 CMakeFiles/structAlign.dir/all:
 	$(MAKE) -f CMakeFiles\structAlign.dir\build.make CMakeFiles/structAlign.dir/depend
 	$(MAKE) -f CMakeFiles\structAlign.dir\build.make CMakeFiles/structAlign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\5-cppBasic\cmake-build-debug\CMakeFiles --progress-num=30,31 "Built target structAlign"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\5-cppBasic\cmake-build-debug\CMakeFiles --progress-num=34,35 "Built target structAlign"
 .PHONY : CMakeFiles/structAlign.dir/all
 
 # Include target in all.
@@ -662,7 +736,7 @@ clean: CMakeFiles/structAlign.dir/clean
 CMakeFiles/virtualFunc.dir/all:
 	$(MAKE) -f CMakeFiles\virtualFunc.dir\build.make CMakeFiles/virtualFunc.dir/depend
 	$(MAKE) -f CMakeFiles\virtualFunc.dir\build.make CMakeFiles/virtualFunc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\5-cppBasic\cmake-build-debug\CMakeFiles --progress-num=34,35 "Built target virtualFunc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\5-cppBasic\cmake-build-debug\CMakeFiles --progress-num=38,39 "Built target virtualFunc"
 .PHONY : CMakeFiles/virtualFunc.dir/all
 
 # Include target in all.
