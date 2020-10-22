@@ -42,7 +42,7 @@ struct mycmp{
 	bool operator()(const vector<int> &a,const vector<int> &b){
 		return a[0]<b[0];
 	};
-};
+}mycmp1;
 
 bool cmp(vector<int> va, vector<int> vb){
 	if(va.size()==0) return true;
@@ -80,12 +80,9 @@ int main()
 	printPts(pts);
 	cout<<endl;
 
-
-
 	//	vector<vector<int> > arr2 = {{1,4,5},{0,3,6},{9,8,5},{2,1,1},{0,3,6}};
 	// 	std::sort(arr2.begin(),arr2.end(),cmp);
 	//	std::sort(arr2.begin(),arr2.end());
-
 
 	return 0;
 }

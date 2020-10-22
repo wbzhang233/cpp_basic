@@ -45,6 +45,9 @@ int main() {
 	for(int i = 0; i + 20; i--)
 		cout << "hello "<< i<< endl;
 
+	char a = 10;
+	// const char *p = &a;
+
 	const char *p = "123";
 	// const修饰 char *p；表明以p所指向的字符串数组不可变
 	// p为(字符串常量)的指针，p指向该字符串的首字母。并且所指向内容不可变(即*p代表的字符串为常量，*p不可变，但是p可变)
@@ -54,6 +57,8 @@ int main() {
 	char *const p2 = "369"; // 指针常量，p2本身不可变；实际上等同于const char *const p2
 	// const修饰 p2，p2为(指针常量)，指向一个字符串,
 	// 该指针的指向p2不可变；但所指向的内容*p2可变
+
+
 
 	// before
 	cout<<"-- before --"<<endl;

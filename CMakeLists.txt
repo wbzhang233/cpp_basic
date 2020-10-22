@@ -3,8 +3,8 @@ project(cppBasic)
 
 set(CMAKE_CXX_STANDARD 14)
 
-# c++基础
-add_executable(cppBasic main.cpp)
+# c++基础：编程题输入cin与getline
+add_executable(main main.cpp)
 
 # lambda表达式
 add_executable(lambda lambda.cpp reloadOperator.cpp)
