@@ -1,3 +1,0 @@
-"D:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\sizeofAndStrlen.dir/objects.a
-D:\PROGRA~1\JETBRA~1\mingw64\bin\ar.exe cr CMakeFiles\sizeofAndStrlen.dir/objects.a @CMakeFiles\sizeofAndStrlen.dir\objects1.rsp
-D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\sizeofAndStrlen.dir/objects.a -Wl,--no-whole-archive  -o sizeofAndStrlen.exe -Wl,--out-implib,libsizeofAndStrlen.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sizeofAndStrlen.dir\linklibs.rsp

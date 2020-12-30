@@ -1,3 +1,0 @@
-"D:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\virtualFunc.dir/objects.a
-D:\PROGRA~1\JETBRA~1\mingw64\bin\ar.exe cr CMakeFiles\virtualFunc.dir/objects.a @CMakeFiles\virtualFunc.dir\objects1.rsp
-D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\virtualFunc.dir/objects.a -Wl,--no-whole-archive  -o virtualFunc.exe -Wl,--out-implib,libvirtualFunc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\virtualFunc.dir\linklibs.rsp
