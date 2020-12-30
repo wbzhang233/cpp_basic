@@ -14,7 +14,9 @@
 
  3. virtual Func的实现以及多种功能
 
-    ![1600511781205](./images/README/1600511781205.png)
+    ![1600511781205](https://github.com/wbzhang233/cpp_basic/blob/master/images/README/1600511781205.png)
+    
+    
 
     > 总结如下：
 >
